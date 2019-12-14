@@ -298,12 +298,12 @@ relative(X,Y,Z):-
 		mother_of_sister_in_law(X,Y,Z),matchmaker(X,Y,Z),write(Z));
 		(brother(X,Z,Y),sister(X,Z,Y),mother(X,Z,Y),
 		father(X,Z,Y),child(X,Z,Y),wife(X,Z,Y),
-		husband(X,Z,Y),grand_mother(X,Z,Y),grand_father(X,Z,Y)),
+		husband(X,Z,Y),grand_mother(X,Z,Y),grand_father(X,Z,Y),
 		uncle(X,Z,Y),niece(X,Z,Y),nephew(X,Z,Y),
 		sister_in_law(X,Z,Y),brother_in_law(X,Z,Y),mother_in_law(X,Z,Y),
 		father_in_law(X,Z,Y),daughter_in_law(X,Z,Y),
 		son_in_law(X,Z,Y),father_of_sister_in_law(X,Z,Y),
-		mother_of_sister_in_law(X,Z,Y),matchmaker(X,Z,Y),write(Y))
+		mother_of_sister_in_law(X,Z,Y),matchmaker(X,Z,Y),write(Y)))
 .
 
 
